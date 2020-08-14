@@ -8,6 +8,11 @@ public class HelloWorld {
       
       private String name;
       private short age;
+      
+      public HelloWorld() {
+          this.name = "";
+          this.age = 0;
+      }
 
       public HelloWorld(String name, short age) {
             this.name = name;
